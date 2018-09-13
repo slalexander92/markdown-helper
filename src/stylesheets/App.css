@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+/* markdown input  */
+#input-wrapper{
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+textarea{
+  resize: none;
+  outline: none;
+  height: 200px;
+  width: 600px;
+}
+
+/* preview wrapper */
+#preview-wrapper{
+  margin: 0 auto;
+}
+
+#preview{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid black;
+  height: 300px;
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
